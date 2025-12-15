@@ -239,7 +239,7 @@ header ul a:hover{
         box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.164);
     }
     .about button{
-        margin-top: 13px;
+        margin-top: 17px;
     }
     .about .right button:hover{
         transition: .4s;
@@ -650,3 +650,4 @@ header ul a:hover{
            transform: translateX(0);
         } 
     }
+
