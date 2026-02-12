@@ -498,7 +498,18 @@ header ul a:hover{
     font-size: .92rem;
     padding-inline: 2px;
 }
+/* ===== Fade On Scroll ===== */
 
+.fade-on {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+}
+
+.fade-on.show {
+    opacity: 1;
+    transform: translateY(0);
+}
 /* تصميم متجاوب */
 @media (max-width: 768px) {
     .footer-container {
@@ -650,5 +661,6 @@ header ul a:hover{
            transform: translateX(0);
         } 
     }
+
 
 
